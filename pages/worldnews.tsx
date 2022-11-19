@@ -4,16 +4,15 @@ import Header from './components/header'
 import Footer from './components/footer'
 
 export default function Home() {
-
   return (
     <div className={styles.container}>
       
-      <Header></Header>
+        <Header></Header>
 
-      <main className={styles.main}>
-        DU BON GROS GOSSIP SA MERE
-      </main>
-      <About></About>
+        <main className={styles.main}>
+            Nouvelles du monde
+        </main>
+        <About></About>
     </div>
   )
 }
